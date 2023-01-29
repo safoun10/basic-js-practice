@@ -12,6 +12,8 @@ Frankly speaking , anything that is within double or single quotation marks is c
 
 Numeric refers to numbers . Numeric variables doesn't require any quotation marks .
 And you can only assign numbers as a numeric type variable , or else it'll through error .
+Numeric type variables have two sub-sector . Those are integer and float .
+Basically integer is a whole number and float contains fractions of a number .
 
 Boolean type variables can contain only two values . It's either true or false .
 The name "boolean" came from an English Mathematician George Boole in 19th century. 
@@ -23,3 +25,6 @@ You'll find all three types of variable down here
 var name = "George Boole" ; //string type var
 var from = 1815 ; //numeric type var
 var isDead = true ; //boolean type var
+
+var priceInt = 10 ; //integer type numeric var
+var priceFloat = 9.99 ; //float type numeric var
